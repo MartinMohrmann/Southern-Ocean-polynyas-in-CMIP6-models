@@ -1,1 +1,2 @@
 # Southern-Ocean-polynyas-in-CMIP6-models
+The algorithm to find polynyas is implemented in polynyaareas_remastered.py. It includes one function that works for the observational data and one function that works for the different CMIP6 models. As input files, it expects the CMIP variables 'areacello', 'sivol', 'siconc' in a file structure ./Modelname/scenario/variable. The output of this algorithm is specified in the save_CMIP_results() function, and further reshaped and filtered in the utils.py. In the last step the data is plotted with the various plt_... functions.
