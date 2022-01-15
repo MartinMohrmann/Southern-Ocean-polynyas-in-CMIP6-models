@@ -9,30 +9,6 @@ def create_resultsdictionary():
     scenario = 'historical'
     thresholds = ['30', '45','60']
 
-    """
-    models = [
-    #'CNRM-CM6-1', #0
-    'CNRM-ESM2-1',
-    'ACCESS-CM2',
-    'BCC-CSM2-MR',
-    'BCC-ESM1',
-    'CESM2', #5
-    'CESM2-FV2',
-    'CESM2-WACCM',
-    'CESM2-WACCM-FV2',
-    'CNRM-CM6-1',
-    #'CanESM5', #10
-    'EC-Earth3',
-    'EC-Earth3-Veg',
-    'IPSL-CM6A-LR',
-    #'MIROC6',
-    'MPI-ESM-1-2-HAM', #15
-    'MPI-ESM1-2-HR',
-    'MPI-ESM1-2-LR',
-    'MRI-ESM2-0',
-    'SAM0-UNICON',
-    ]
-    """
 
     models = ['CAMS-CSM1-0','CNRM-CM6-1', 'CNRM-ESM2-1', 
           'ACCESS-CM2','ACCESS-ESM1-5', 'BCC-CSM2-MR', 
